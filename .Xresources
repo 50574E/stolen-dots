@@ -1,0 +1,73 @@
+
+! Dylans Xresources
+! URxvt.font: envypn-13
+URxvt*font: xft:lemon-j:size=4
+URxvt*boldFont: xft:lemon-j:size=4
+
+URxvt*geometry: 90x25
+xterm*termName: xterm-256color
+
+! Disables Scrollbar
+URxvt.scrollBar: false
+
+! Sets urxvt as login shell
+URxvt*loginShell: true
+
+! Speed up loading of alsamixer on ati
+URxvt*skipBuiltinGlyphs: true
+URxvt.internalBorder: 4
+
+! Enables copy/paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: clipboard
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+! Disable these keybindings
+URxvt.keysym.C-z: \
+URxvt.keysym.C-h: \
+URxvt.keysym.C-f: \
+
+Xcursor.size: 8
+
+! Dyl Colors {{{
+
+! special
+*.foreground:   #f2f3f2
+*.background:   #2d2b33
+*.cursorColor:  #f2f3f2
+
+! black
+*.color0:       #2d2b33
+*.color8:       #75747a
+
+! red
+*.color1:       #c86c75
+*.color9:       #c86c75
+
+! green
+*.color2:       #c6d1c0
+*.color10:      #c6d1c0
+
+! yellow
+*.color3:       #e5c196
+*.color11:      #e5c196
+
+! blue
+*.color4:       #8294b4
+*.color12:      #8294b4
+
+! magenta
+*.color5:       #e8907e
+*.color13:      #e8907e
+
+! cyan
+*.color6:       #a9cdd9
+*.color14:      #a9cdd9
+
+! white
+*.color7:       #f2f3f2
+*.color15:      #f2f3f2
+
+! }}}
